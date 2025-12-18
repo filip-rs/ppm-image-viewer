@@ -27,8 +27,6 @@ int main() {
   char *pdimensions = calloc(1000, sizeof(char));
   fgets(pdimensions, 1000, in);
 
-  printf("%s", pdimensions);
-
   // Read the max value (and throw it out)
   pthrowaway = calloc(1000, sizeof(char));
   fgets(pthrowaway, 1000, in);
