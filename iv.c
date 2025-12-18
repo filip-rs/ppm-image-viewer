@@ -4,7 +4,6 @@
 #include <SDL2/SDL_surface.h>
 #include <SDL2/SDL_timer.h>
 #include <SDL2/SDL_video.h>
-// #include <iostream.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -16,8 +15,6 @@ bool valid_length(int length_req, char *string);
 void strip_string(char *s);
 
 int main() {
-  // char *filename = "as-it-should-be.ppm";
-
   FILE *in = stdin;
 
   char *pthrowaway = calloc(1000, sizeof(char));

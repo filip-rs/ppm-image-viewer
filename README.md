@@ -1,6 +1,7 @@
 # PPM Image Viewer
 
-its bad but it does work on my machine.
+VERY basic image viewer written from basics in C with SDL2.
+This is not made to be useful at all but the application does work (hyprland on arch).
 
 build command:
 
